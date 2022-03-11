@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+body{
+
+    padding: 100px;
+    background-color: #300e46;
+}
+.container{
+
+    margin: auto;
+    width: 300px;
+    height: 340px;
+    background-color: #1c1c1c;
+    box-shadow: 1px 1px 4px #29083f;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.container input[type=number]{
+
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: 0px 5px #300e46;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.container input[type=number]:hover{
+
+    box-shadow: 0px 5px #29083f;
+}
+.container input[type=button]{
+
+    font-family: 'Roboto',sans-serif;
+    background-color: #300e46;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    margin: 2px;
+
+}
+.container input[type=button]:hover{
+
+    background-color: #29083f;
+}
+.container h1{
+
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+#answer{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    margin: 30px;
+    color: #fff;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    
+  -webkit-appearance: none;  
+}
