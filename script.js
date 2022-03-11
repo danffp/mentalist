@@ -1,5 +1,3 @@
-for(var i = 2; i > 0; i--);
-console.log(i)
 function chute(){
             
     var NumSec = Math.floor(Math.random() * 11);
@@ -13,7 +11,7 @@ function chute(){
     
             res.innerHTML = `<span>Você acertou!</span>`
         }
-        else if(num > 10 || num < 0){
+        else if(num > 10 || num < 0 || num == ""){
     
             res.innerHTML = `Digite um número entre 0 e 10.`
         }
