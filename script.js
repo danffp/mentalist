@@ -1,5 +1,5 @@
 // 
-var NumSec = Math.floor(Math.random() * 11);
+var NumSec = parseInt(Math.random() * 11);
 var attempts = 2;
 
     function chute(){
@@ -21,9 +21,9 @@ var attempts = 2;
         }
         else if(num != NumSec && attempts > 0)
         {
-            answer.innerHTML = `Você errou! <br> <span>Tentativas restantes:<span> ${attempts}`
-            attempts -= 1;
-           
+            answer.innerHTML = `Você errou! <br> <span>O número e menor ${NumSec + 1} e maior ${NumSec - 1} <span>
+            <br> <span>Tentativas restantes:<span> ${attempts}`
+            attempts -= 1; 
         }
         else{
             answer.innerHTML = 'Você perdeu!<br><br> <button> <a href="../index.html">Jogar novamente</a></button>'
