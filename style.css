@@ -2,14 +2,14 @@
   
 body{
 
-    padding: 100px;
+    padding-top: 100px;
     background-color: #300e46;
 }
 .container{
 
     margin: auto;
     width: 320px;
-    height: 420px;
+    height: 365px;
     background-color: #1c1c1c;
     box-shadow: 1px 1px 4px #29083f;
     padding: 20px;
@@ -93,13 +93,6 @@ body{
     
     font-size: 14px;
 }
-#points{
-    
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    font-size: 25px;
-}
-
 #answer{
 
     font-family: 'Roboto', sans-serif;
@@ -107,9 +100,10 @@ body{
     margin: 30px;
     color: #fff;
 }
-
+/*
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     
   -webkit-appearance: none;  
 }
+*/
