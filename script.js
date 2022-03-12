@@ -6,10 +6,6 @@ var attempts = 2;
             
     var num = document.getElementById('txtnum').value;
     var answer = document.getElementById('answer');
-    // var points = document.getElementById('points');
-    
-    // exibir pontos na tela
-    // points.innerHTML = `${pontos}` 
      
         if(num == ""){
     
