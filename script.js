@@ -1,4 +1,4 @@
-// 
+// https://github.com/danffp
 var NumSec = parseInt(Math.random() * 11);
 var attempts = 2;
 
